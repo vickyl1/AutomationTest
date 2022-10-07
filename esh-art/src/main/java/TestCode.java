@@ -7,7 +7,7 @@ import net.sourceforge.htmlunit.corejs.javascript.ast.ThrowStatement;
 
 public class TestCode {
 
-	//print Factorial function
+	//print Factorial function test
 	public int fact(int n)
 	{ int f=1,i;
 	for(i=1;i<=n;i++)
