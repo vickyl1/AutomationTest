@@ -13,10 +13,13 @@ public class HandlePopups extends LaunchDriver {
 	@Test
 	void checkWithOptions()
 	{
-		LaunchDriver.getDriverAndLaunchBrowser(URL,20);
 		
 		ChromeOptions options= new ChromeOptions();
 		options.addArguments("disable-popup-blocking");
+		
+		LaunchDriver.getDriverAndLaunchBrowser(URL,20);
+		
+		
 		
 	}
 

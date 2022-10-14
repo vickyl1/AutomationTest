@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="commonmethods.LaunchDriver">
+      <class name="esh.LoginToPage">
         <methods>
-          <include name="getDriverAndLaunchBrowser"/>
+          <include name="loginPageToATT"/>
         </methods>
-      </class> <!-- commonmethods.LaunchDriver -->
+      </class> <!-- esh.LoginToPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
